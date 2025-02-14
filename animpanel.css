@@ -1,0 +1,28 @@
+.container { position: absolute; 
+z-index: -2;
+text-align: center; 
+}
+  .fade-in { 
+margin-left: 10rem;  
+opacity: 0; 
+animation: fadeIn ease-in 2; 
+animation-fill-mode: forwards; 
+animation-duration: 9s; 
+    }
+  @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+  }
+  .animate__slideInRight{
+    --animate-duration: 20s;
+    margin-left: 10rem;  
+  }
+  .animate__slideInLeft{
+    --animate-duration: 20s;
+    margin-left: 10rem;  
+  }
+  
