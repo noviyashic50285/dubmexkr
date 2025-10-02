@@ -1,0 +1,27 @@
+.ticker { background-color: rgb(204, 243, 243);
+  margin-top: 1.7rem; 
+  box-sizing: border-box;
+  position: absolute;
+  overflow: hidden;
+}
+.ticker__wrapper {
+  display: inline-flex;
+}
+.ticker__item { 
+font-family: sans-serif;  
+font-size: 19px;  
+font-weight: 500;
+
+white-space: nowrap;
+flex-shrink: 0;
+padding: 0 15px;
+animation: ticker 25s linear infinite;
+}
+@keyframes ticker {
+  0% {
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
