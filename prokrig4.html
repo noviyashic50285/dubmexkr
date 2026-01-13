@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Фото автопрокруткой</title>
+    <link rel="stylesheet" href="prokr/preloadnew.css" />
   <link rel="stylesheet" href="prokr/carousel.min.css">
 	<link rel="stylesheet" href="prokr/prokrig4.css">
   <link rel="icon" type="Images/x-icon" href="atsicon.ico"/>
 </head>
 <body>
-<div class="outer-jsc">
+<div class="preloader">
+  <div class="prob">
+      <p>Все фотки будут показаны после полной загрузки</p>
+  </div>
+</div>
+
+  <div class="outer-jsc">
 
 <div class="carousel"
   data-carousel-delay="5000"
@@ -88,6 +95,7 @@
 </div>
 </div>
 
+<script src="prokr/preloadnew.js"></script>
 <script src="prokr/carousel.min.js"></script>
 </body>
 </html>
